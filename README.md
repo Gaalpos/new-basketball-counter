@@ -1,5 +1,7 @@
 # Counter app
 
+ https://gaalpos.github.io/new-basketball-counter/
+
 Counter app to learn about JS and CSS
 
 Strech goals
