@@ -1,84 +1,106 @@
-body {
-    margin: 0;
-    background-color: black;
-}
+  @font-face {
+      font-family: DigitalClock;
+      src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+  }
 
-.main-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
+  @font-face {
+      font-family: Sport;
+      src: url(./fonts/SportNewsRegular-0Wq7v.ttf);
+  }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 5px;
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgb(33, 218, 171) 100%);
-    color: white;
-}
+  body {
+      margin: 0;
+      background-color: black;
+  }
 
-.counter-back {
-    color: white;
-    text-align: center;
-    background-color: black;
-    margin: 3px;
-}
+  .main-container {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
-.team-counter {
-    text-align: center;
-    border: 2px solid yellow;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-image: linear-gradient(red, rgb(255, 208, 0), rgb(208, 33, 224));
-    margin: 20px;
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 5px;
+      background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgb(33, 218, 171) 100%);
+      color: white;
+      font-family: DigitalClock;
+  }
+
+  .counter-back {
+      color: white;
+      text-align: center;
+      background-color: black;
+      margin: 3px;
+  }
+
+  .team-counter {
+      text-align: center;
+      border: 5px solid gold;
+      border-radius: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      background-image: linear-gradient(red, rgb(255, 208, 0), rgb(208, 33, 224));
+      margin: 20px;
 
 
-}
+  }
 
-.add-btn {
-    background-color: rgb(44, 219, 67);
-    border: none;
-    margin: 3px;
-    border-radius: 2px;
-    cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0);
-}
+  .add-btn {
+      background-color: rgb(44, 219, 67);
+      border: none;
+      margin: 3px;
+      border-radius: 2px;
+      cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 0);
+  }
 
-.add-btn:hover {
-    background-color: rgb(150, 236, 132);
-    border: 1px solid black;
-}
+  .add-btn:hover {
+      background-color: rgb(150, 236, 132);
+      border: 1px solid black;
+  }
 
-.results-container {
 
-    border: 2px solid gold;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    text-align: center;
-    width: 20%;
-}
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    width: 0%;
-}
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+      width: 0%;
+  }
 
-.extra-buttons {
-    border: 2px solid gold;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    text-align: center;
-    padding: 5px;
-}
+  .extra-buttons {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+      text-align: center;
+      padding: 5px;
+  }
 
-.extra-btn {
-    background-color: rgb(241, 98, 98);
-    cursor: pointer;
-}
+  .extra-btn {
+      background-color: rgb(241, 98, 98);
+      cursor: pointer;
+      margin-right: auto;
+      margin-left: auto;
+      width: 110px;
+      padding: 5px;
+
+  }
+
+  #last-matches {
+      font-family: Sport;
+  }
+
+
+  #results-container {
+      background-color: rgb(60, 143, 221);
+      border: 2px solid gold;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+      text-align: center;
+      width: 200px;
+  }

@@ -7,7 +7,7 @@
 <body>
     <div class="container">
         <div class="main-container">
-            <div class="team-counter">
+            <div class="team-counter" id="home-counter">
                 <h3>HOME</h3>
                 <div class="counter-back">
                     <p id="home-score">0</p>
@@ -18,10 +18,10 @@
                     <button class="add-btn" id="add-three-home">+3</button>
                 </div>
             </div>
-            <div class="team-counter">
+            <div class="team-counter" id="guest-counter">
                 <h3>GUEST</h3>
                 <div class="counter-back">
-                    <p id="home-score">0</p>
+                    <p id="guest-score">0</p>
                 </div>
                 <div class="buttons-container">
                     <button class="add-btn" id="add-one-guest">+1</button>
@@ -31,12 +31,11 @@
             </div>
         </div>
         <div class="extra-buttons">
-            <button class="extra-btn" id="clear-button">Clear Counters</button>
-            <button class="extra-btn" id="save-button">Save Result</button>
+            <button class="extra-btn" id="save-btn">Save Result</button>
+            <button class="extra-btn" id="clear-btn">Clear Counters</button>
         </div>
-        <div class="results-container">
-            <p> Hola</p>
-
+        <div id="results-container">
+            <h3 id="last-matches">Match history</h3>
         </div>
 
 
